@@ -17,5 +17,5 @@ class Complex_Number(Real_Number):
         return math.sqrt((self.real_number ** 2) + (self.image_number ** 2))
 
 
-num = Complex_Number(1, 2)
+num = Complex_Number(10, 3)
 print(num.module())
