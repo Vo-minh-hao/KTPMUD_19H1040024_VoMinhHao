@@ -11,7 +11,6 @@ def check_bcd_number(value):
     else:
         return False
 
-
 @pytest.mark.parametrize("value, result", [("0001", True), ("1234", False), ("12", False)])
 def test_check_bcd_number(value, result):
     assert result == check_bcd_number(value)
